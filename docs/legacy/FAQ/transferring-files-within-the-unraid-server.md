@@ -19,6 +19,19 @@ console on your desktop station. For more information, see the
 [Telnet](terminal-access.md#telnet) page, which includes information on
 [PuTTY](terminal-access.md#PuTTY).
 
+## IMPORTANT NOTE - DO NOT copy DISK to SHARE!!
+
+GOOD = copying from /mnt/disk1 to /mnt/disk3/<sharename> is a disk to disk copy.
+ 
+BAD = DON'T DO /mnt/disk1 to /mnt/user/<sharename> which may lead to problems.
+
+## Share to Share
+
+You can also do share to share /mnt/user/data to mnt/user/data2
+
+Just please make sure you any NOT doing a DISK to SHARE copy or move action as this is likely to lead to problems.
+ 
+
 ## Move Files Overnight
 
 If you go to the Unraid server and run Midnight Commander from there,
